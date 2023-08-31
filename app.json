@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "password Generator",
+    "slug": "passGenerator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/lock.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/lock.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/bg.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hamdymohamed.passGenerator"
+    },
+    "web": {
+      "favicon": "./assets/lock.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1265e793-1c39-48e2-bf47-59d948f7b126"
+      }
+    }
+  }
+}
